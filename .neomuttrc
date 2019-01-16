@@ -1,6 +1,7 @@
 # Welcher Zeichensatz soll verwendet werden?
 set charset="utf-8"
 
+
 # Zeichensatz für ausgehende E-Mails sorgt dafür, dass ausgehende E-Mails im kleinstmÃ¶glichen Zeichensatz verschickt werden
 set send_charset="us-ascii:iso-8859-1:iso-8859-15:utf-8"
 
