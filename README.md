@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-Collection of various config files
+Collection of various config and handsome exec files
