@@ -1,5 +1,5 @@
 #!/bin/bash
-# crypten - a script to encrypt files using openssl
+#  crypten - a script to encrypt files using openssl
 
 INAME=$1
 ONAME=$2
