@@ -1,5 +1,5 @@
 #!/bin/bash
-# cryptde - a script to decrypt files using openssl
+#  cryptde - a script to decrypt files using openssl
 
 FNAME=$1
 
