@@ -1,0 +1,27 @@
+#### rclone auf GDrive
+
+[gd-fd29]
+type = crypt
+remote = gd:/gd-rclone
+filename_encryption = standard
+directory_name_encryption = true
+password = type_your_passwd
+password2 = type_your_passwd-2
+
+[gd]
+type = drive
+client_id = type-your-id.apps.googleusercontent.com
+client_secret = type-your-secret
+service_account_file = 
+token = {"access_token":"type-your-token","token_type":"Bearer","refresh_token":"type-your-refresh-token","expiry":"2018-10-02T22:00:09.923263297+01:00"}
+
+[gd-cache]
+type = cache
+remote = gd:/gd-rclone
+plex_url = 
+plex_username = 
+plex_password = type-your-passwd
+chunk_size = 5M
+info_age = 24h
+chunk_total_size = 10G
+

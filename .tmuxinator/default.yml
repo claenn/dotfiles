@@ -1,0 +1,14 @@
+name: default
+root: ~/
+windows:
+  - default:
+      layout: 0c6d,142x31,0,0[142x15,0,0,0,142x15,0,16{71x15,0,16,2,70x15,72,16,3}]
+      panes:
+        - clear
+        - vim
+        - clear && journalctl -b -f    
+  - remote: 
+      layout: ce0f,142x31,0,0[142x15,0,0,1,142x15,0,16,4]
+      panes:
+        - 
+        - 
