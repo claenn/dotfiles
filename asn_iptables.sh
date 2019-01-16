@@ -1,7 +1,6 @@
 #!/bin/bash
 
 # Creates iptables/afwall blocking rules (IPv4) based on ASN information
-
 # Version: 0.1
 # Last updated: Apr 25 2017
 # Author: Mike Kuketz
